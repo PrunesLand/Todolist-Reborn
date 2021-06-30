@@ -39,7 +39,7 @@ function TodoList() {
     }
     return (
         <div>
-            <h1>WHatsup</h1>
+            <h1>WHatsup, This is a todolist bruva!</h1>
             <TodoForm onSubmit={addTodo} />
             <Todo
                 todos={todos}
